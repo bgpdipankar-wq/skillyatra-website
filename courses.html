@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>कोर्सेज — SkillYatra</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">SkillYatra</a>
+    <nav class="main-nav">
+      <a href="index.html">होम</a>
+      <a href="courses.html">कोर्सेज</a>
+      <a href="about.html">हमारे बारे में</a>
+      <a href="contact.html">संपर्क</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container section">
+  <h1>हमारे ITI कोर्स</h1>
+  
+  <div class="course">
+    <h2>ITI Electrician</h2>
+    <p>थ्योरी + प्रैक्टिकल गाइडेंस।</p>
+    <!-- Razorpay Button -->
+    <form>
+      <script src="https://checkout.razorpay.com/v1/payment-button.js"
+              data-payment_button_id="pl_YOUR_BUTTON_ID" async> </script>
+    </form>
+  </div>
+
+  <div class="course">
+    <h2>ITI Fitter</h2>
+    <p>फिटिंग, टूल्स और एग्जाम फोकस्ड क्लास।</p>
+    <form>
+      <script src="https://checkout.razorpay.com/v1/payment-button.js"
+              data-payment_button_id="pl_YOUR_BUTTON_ID2" async> </script>
+    </form>
+  </div>
+
+  <div class="course">
+    <h2>ITI Welder</h2>
+    <p>वेल्डिंग तकनीक और Mock Tests।</p>
+    <form>
+      <script src="https://checkout.razorpay.com/v1/payment-button.js"
+              data-payment_button_id="pl_YOUR_BUTTON_ID3" async> </script>
+    </form>
+  </div>
+</main>
+
+<section class="section alt-bg">
+  <div class="container">
+    <h2>🎥 Free Demo Class</h2>
+    <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+            title="SkillYatra Demo Class" frameborder="0" allowfullscreen></iframe>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year2"></span> SkillYatra</p>
+  </div>
+</footer>
+<script>document.getElementById('year2').textContent=new Date().getFullYear()</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>संपर्क — SkillYatra</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">SkillYatra</a>
+    <nav class="main-nav">
+      <a href="index.html">होम</a>
+      <a href="courses.html">कोर्सेज</a>
+      <a href="about.html">हमारे बारे में</a>
+      <a href="contact.html">संपर्क</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container section">
+  <h1>संपर्क करें</h1>
+  <form action="https://formspree.io/f/yourformid" method="POST">
+    <label>नाम<input type="text" name="name" required></label>
+    <label>मोबाइल<input type="tel" name="phone" required></label>
+    <label>कोर्स<select name="course">
+      <option>ITI Electrician</option>
+      <option>ITI Fitter</option>
+      <option>ITI Welder</option>
+    </select></label>
+    <label>संदेश<textarea name="message"></textarea></label>
+    <button type="submit" class="btn btn-primary">भेजें</button>
+  </form>
+
+  <p><strong>WhatsApp:</strong> <a href="https://wa.me/91XXXXXXXXXX">+91-XXXXXXXXXX</a></p>
+  <p><strong>Email:</strong> info@skillyatra.in</p>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year4"></span> SkillYatra</p>
+  </div>
+</footer>
+<script>document.getElementById('year4').textContent=new Date().getFullYear()</script>
+</body>
+</html>
